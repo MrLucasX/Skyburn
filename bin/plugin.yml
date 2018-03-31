@@ -1,0 +1,14 @@
+name: SkyBurn
+version: 1.0
+author: Klimex
+main: de.skyburn.main.Main
+description: Skyburn Spell System
+
+commands:
+  spell:
+  
+permissions:
+  skyburn.*:
+    description: Alle Permissions
+    children:
+      skyburn.cmd.spell: true
